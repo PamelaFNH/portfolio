@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Universitaria</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(135deg, rgba(94, 88, 92, 0.7), #556cb6); position: fixed; top: 0; width: 100%; z-index: 1000;">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo_pamela.png" alt="Logo de Pamela" style="height: 70px;">
+        </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link fs-5 mx-3" href="#" style="font-family: 'Poppins', sans-serif; color: #fff;">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 mx-3" href="#about" style="font-family: 'Poppins', sans-serif; color: #fff;">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 mx-3" href="#projects" style="font-family: 'Poppins', sans-serif; color: #fff;">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 mx-3" href="#skills" style="font-family: 'Poppins', sans-serif; color: #fff;">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 mx-3" href="#contacto" style="font-family: 'Poppins', sans-serif; color: #fff;">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+
+
+
+
+<!-- Header -->
+<header class="vh-100 d-flex align-items-center text-white" style="background: linear-gradient(135deg, rgba(197, 137, 186, 0.822), #f0eeeec5 50%); position: relative;">
+    <div class="container d-flex align-items-center justify-content-between" style="position: relative; z-index: 1;">
+        <!-- Imagen en el lado izquierdo -->
+        <div class="col-md-6 text-center">
+            <img src="img/perfil.jpg" alt="Foto de Pamela" class="img-fluid rounded-circle shadow-lg" style="max-width: 80%; border: 5px solid #fff;">
+        </div>
+
+        <!-- Texto en el lado derecho -->
+        <div class="col-md-6">
+            
+            <div class="p-4"  style="background-color: rgba(238, 214, 214, 0.651); border-radius: 15px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);">
+                <h1 class="display-4 fw-bold" style="color: #2c2c2c;">Hola, Soy Pamela</h1>
+                
+                <p class="lead mt-3 fs-4" style="color: #2c2c2c;">Estudiante apasionada por el diseño, enfocada en crear proyectos innovadores y funcionales.</p>
+                <a href="https://wa.me/51952463748" class="btn btn-light btn-lg mt-4 px-5 shadow-sm" style="background: linear-gradient(135deg, #ff85e0, #a1c4fd); color: #fff; border-radius: 30px; border: 2px solid transparent; font-weight: bold; text-transform: uppercase; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: all 0.3s ease-in-out;" onmouseover="this.style.background='linear-gradient(135deg, #ff85e0, #ff4dff)'; this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 16px rgba(0, 0, 0, 0.2)';" onmouseout="this.style.background='linear-gradient(135deg, #ff85e0, #a1c4fd)'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 8px rgba(0, 0, 0, 0.1)';">
+                    Hablemos aquí
+                </a>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Fondo principal detrás del contenido -->
+    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('img/forest.png') no-repeat center center; background-size: cover; z-index: 0;"></div>
+</header>
+
+
+  
+  
+
+
+  
+<!-- Sobre mí -->
+<section id="about" class="container text-center" style="padding: 100px 0;">
+    <div class="row align-items-center">
+      <!-- Imagen (a la izquierda) -->
+      <div class="col-12 col-md-6 text-center text-md-left">
+        <img src="img/girl.png" alt="Sobre mí" style="max-width: 70%; height: auto; animation: bounce 2s infinite;">
+      </div>
+
+      <!-- Texto (a la derecha) -->
+      <div class="col-12 col-md-6 text-center text-md-right">
+        <h2 style="font-size: 4rem; font-family: 'Poppins', sans-serif; color: #ff6b8c; font-weight: bold; margin-bottom: 30px;">
+          Sobre mí
+        </h2>
+        <p style="font-size: 1.3rem; color: #4a4a4a; line-height: 1.8; margin-bottom: 25px;">
+          Soy Pamela, estudiante de Arquitectura de Plataformas y Servicios de Tecnologías de la Información. 
+          Me interesa el diseño y desarrollo de interfaces de usuario, y tengo experiencia en proyectos relacionados con frontend. 
+          Mi objetivo es crear experiencias visuales atractivas y funcionales para los usuarios.
+        </p>
+      </div>
+    </div>
+</section>
+
+<!-- Estilo para el efecto de rebote -->
+<style>
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+</style>
+
+
+  
+<!-- Proyectos -->
+<section id="projects" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-5" style="font-size: 4rem; font-family: 'Poppins', sans-serif; color: #ff6b8c; font-weight: bold;">Mis Proyectos</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/proyecto-1.jpg" class="card-img-top" alt="Proyecto 1" style="height: 250px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Agro Stock</h5>
+              <p class="card-text">Agro Stock es un sistema de inventario diseñado para gestionar de manera eficiente los productos, herramientas y recursos agrícolas. Este sistema permite registrar, controlar y monitorear el stock de insumos agrícolas, como semillas, fertilizantes, pesticidas y equipos, asegurando una gestión organizada y reduciendo pérdidas. Además, ofrece reportes en tiempo real, alertas de stock mínimo y opciones de trazabilidad para facilitar la toma de decisiones en actividades agrícolas.</p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/proyecto-2.jpg" class="card-img-top" alt="Proyecto 2" style="height: 250px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto Agrícola</h5>
+              <p class="card-text">El desarrollo de un sistema de monitoreo inteligente para cultivos implica el uso de sensores IoT para recopilar datos sobre las condiciones del suelo, temperatura, humedad y otros factores ambientales. Estos datos se analizan en tiempo real, lo que permite a los agricultores tomar decisiones informadas sobre el riego, la fertilización y la protección de cultivos, mejorando la eficiencia agrícola, reduciendo costos y optimizando el uso de recursos naturales.</p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/proyecto-3.jpeg" class="card-img-top" alt="Proyecto 3" style="height: 250px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto TI en Salud</h5>
+              <p class="card-text">La implementación de una plataforma web de telemedicina permite ofrecer servicios de salud remotos, conectando a pacientes con profesionales médicos a través de consultas virtuales. Utilizando tecnologías de la información, se facilitan diagnósticos a distancia, monitoreo de pacientes y seguimiento de tratamientos, mejorando el acceso a servicios de salud, especialmente en áreas rurales o con falta de infraestructura médica, optimizando recursos y reduciendo costos.</p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+ <!-- Habilidades -->
+
+<section id="skills" class="text-center py-5 bg-light">
+    <div class="container">
+      <!-- Título con más separación y tamaño aumentado -->
+      <h2 class="mb-5" style="font-size: 4.0rem; color: #ff6b8c; font-weight: bold; margin-bottom: 90px;">Habilidades</h2>
+      
+      <div class="row mt-4">
+        <div class="col-md-3 mb-4 d-flex flex-column align-items-center">
+          <h5 style="font-size: 1.2rem;">Desarrollo Web</h5>
+          <p style="font-size: 1rem; color: #555; text-align: center;">Tengo experiencia en crear interfaces interactivas y sistemas robustos utilizando HTML, CSS, JavaScript y frameworks como React y Flask.</p>
+          <div class="progress" style="height: 30px; width: 100%;">
+            <div class="progress-bar" role="progressbar" style="width: 85%; background-color: #4caf50;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+              85%
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-3 mb-4 d-flex flex-column align-items-center">
+          <h5 style="font-size: 1.2rem;">Análisis de Datos</h5>
+          <p style="font-size: 1rem; color: #555; text-align: center;">Especializada en análisis de datos con herramientas como Python, SQL y Excel, proporcionando información valiosa para la toma de decisiones.</p>
+          <div class="progress" style="height: 30px; width: 100%;">
+            <div class="progress-bar" role="progressbar" style="width: 75%; background-color: #f39c12;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              75%
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-3 mb-4 d-flex flex-column align-items-center">
+          <h5 style="font-size: 1.2rem;">Diseño Gráfico</h5>
+          <p style="font-size: 1rem; color: #555; text-align: center;">Diseñadora gráfica con pasión por la creación de imágenes visuales impactantes, utilizando herramientas como Adobe Photoshop e Illustrator.</p>
+          <div class="progress" style="height: 30px; width: 100%;">
+            <div class="progress-bar" role="progressbar" style="width: 65%; background-color: #e74c3c;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+              65%
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-3 mb-4 d-flex flex-column align-items-center">
+          <h5 style="font-size: 1.2rem;">SQL</h5>
+          <p style="font-size: 1rem; color: #555; text-align: center;">Experta en bases de datos SQL, optimizando consultas y gestionando grandes volúmenes de información para mejorar el rendimiento de sistemas.</p>
+          <div class="progress" style="height: 30px; width: 100%;">
+            <div class="progress-bar" role="progressbar" style="width: 90%; background-color: #3498db;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              90%
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+   <h3>Contactame </h3>
+<section class="contacto" id="contacto" >
+ 
+    <div class="informacion">
+      <h2>Información de contacto</h2>
+      <p><strong>Dirección:</strong> Cusco, Peru</p>
+      <p><strong>Teléfono:</strong> +51 952 463 748</p>
+      <p><strong>Email:</strong> pamela12@egmail.com</p>
+    </div>
+  
+    <div class="contactame">
+      <h2>Contáctame</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+  
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="Tu correo">
+  
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+  
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+  
+  
+  
+ 
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-column">
+        <h5>Sobre Mí</h5>
+        <p>Soy Pamela, profesional en desarrollo de soluciones tecnológicas y mejora de la experiencia del usuario..</p>
+      </div>
+      <div class="footer-column">
+        <h5>Contacto</h5>
+        <ul class="contact-list">
+            <li><a href="mailto:pamela@gmail.com">pamela@gmail.com</a></li>
+          <li><a href="https://wa.me/51952463748" target="_blank">+51 952 463 748</a></li>
+
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h5>Sígueme</h5>
+        <div class="social-icons">
+          <a href="https://facebook.com" target="_blank" class="social-icon">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://instagram.com" target="_blank" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://wa.me/51952463748" target="_blank" class="social-icon">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2024 Todos los derechos reservados
+    </div>
+  </footer>
+  
+          
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
